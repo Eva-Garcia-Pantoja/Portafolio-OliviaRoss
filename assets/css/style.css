@@ -1,0 +1,66 @@
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+/* seccion de navegacion */
+.nav_color{
+    background-color: #373A3C;
+}
+/* separando despues de la etiqueta nav */
+.navbar + header{
+    margin-top: 3rem;
+}
+
+/* insertando imagen al header */
+header{
+    background-image: url('../img/bg-hero.jpg');
+    height: 630px;
+    /* Para que no se repita la imagen cuando con cumple con las medidas */
+    background-repeat: no-repeat;
+    /* para ajustar la imagen de lado a lado una imagen */
+    background-size: cover;
+
+}
+
+.parrafo_header{
+    padding-left: 60%;
+    font-size: 16px;
+}
+.h1_mundo{
+    font-size: 75px;
+}
+/* para cambiar el color del boton */
+/* .btn_trabajo{
+    background-color: #17A2B8;
+} */
+
+/* Seccion principal */
+.acerca_mi{
+    font-size: 50px;
+    
+}
+
+/* seccion de cards */
+
+.section_trabajos{
+    background-color: #17A2B8;
+}
+
+
+
+/* para celulares */
+@media(max-width:576px){
+
+}
+
+/* para tamaño de tablets */
+@media (max-width:900){
+    header{
+        font-size:40px
+    }
+
+} 
+
+
+
+
